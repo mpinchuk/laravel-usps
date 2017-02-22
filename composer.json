@@ -1,5 +1,5 @@
 {
-    "name": "johnpaulmedina/laravel-usps",
+    "name": "mpinchuk/laravel-usps",
     "description": "USPS API for Laravel 5",
     "type": "library",
     "keywords": ["usps","laravel","laravel5","laravel usps"],
