@@ -10,7 +10,7 @@ Laravel-USPS is a composer package that allows you to integrate the USPS Address
 Begin by installing this package through Composer. Run this command from the Terminal:
 
 ```bash
-composer require johnpaulmedina/laravel-usps:dev-master
+composer require mpinchuk/laravel-usps:dev-master
 ```
 ## Laravel integration
 
@@ -37,7 +37,7 @@ Add your USPS username config in `config/services.php`.
 ```
 
 ## Example Controller Usage
-The only method completed for Laravel is the `Usps::validate` which is defined in `vendor/johnpaulmedina/laravel-usps/src/Usps/Usps.php`. As this package was developed for internal use I did not bring over all the features but you are more than welcome to contribute the methods you need and I will merge them. I suggest looking at the original PHP-Wrapper by @VinceG [USPS PHP-Api](https://github.com/VinceG/USPS-php-api "USPS PHP-Api by VinceG") as I ported those clases and autoloaded them to use in the `Usps.php` file.
+The only method completed for Laravel is the `Usps::validate` which is defined in `vendor/mpinchuk/laravel-usps/src/Usps/Usps.php`. As this package was developed for internal use I did not bring over all the features but you are more than welcome to contribute the methods you need and I will merge them. I suggest looking at the original PHP-Wrapper by @VinceG [USPS PHP-Api](https://github.com/VinceG/USPS-php-api "USPS PHP-Api by VinceG") as I ported those clases and autoloaded them to use in the `Usps.php` file.
 ```php
 <?php
 
