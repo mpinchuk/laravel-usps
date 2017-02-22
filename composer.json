@@ -22,24 +22,5 @@
         "psr-0": {
             "Usps": "src/"
         }
-    },
-    "repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "mpinchuk/laravel-usps",
-            "version": "dev-master",
-            "source": {
-                "url": "git://github.com/mpinchuk/laravel-usps.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "Usps": "src/"
-                }
-            }
-        }
     }
-],
 }
