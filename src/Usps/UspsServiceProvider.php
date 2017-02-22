@@ -28,7 +28,7 @@ class UspsServiceProvider extends ServiceProvider {
      */
     public function register()
     {
-        $this->app['usps'] = $this->app->share(function($app)
+        $this->app->singleton('usps',function($app)
         {
             $config = \Config::get('services.usps');
             return new Usps($config);
