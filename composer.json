@@ -22,7 +22,7 @@
         "psr-0": {
             "Usps": "src/"
         }
-    }
+    },
     "repositories": [
     {
         "type": "package",
